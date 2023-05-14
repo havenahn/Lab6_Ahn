@@ -67,7 +67,7 @@ function saveRecipesToStorage(recipes) {
 function initFormHandler() {
 
   // B2. TODO - Get a reference to the <form> element
-  
+  const form = document.querySelector("form");
   // B3. TODO - Add an event listener for the 'submit' event, which fires when the
   //            submit button is clicked
 
